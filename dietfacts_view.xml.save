@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding= "utf-8"?>
+
+<openerp>
+   <data>
+   <record id="dietfacts_product_template_tree_view" model="ir.ui.view">
+   <field name="inherit_id" ref="product.product_template_tree_view"/ >
+   <field name="model">product.template</field>
+   <field name="arch" type="xml">
+	 <field name="categ_id" position="after">
+	     <field name="quantidade"/>
+	 </field>
+   </field></record>
+	</data>
+</openerp>
