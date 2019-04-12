@@ -8,7 +8,7 @@ class DietFacts_products_template(models.Model):
     _inherit = 'product.template'
 
     quantidade = fields.Integer("Quantidade")
-    calories = fields.Integer('Calorias')
+    calories = fields.Integer('Miojo')
     lastupdate = fields.Date('Last Update')
     nutrient_ids = fields.One2many('product.template.nutrient','product_id','Nutrients')
 
